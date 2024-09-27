@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello there", "Good day", "Anyone available?", "Hey", "Hi"],
+      "responses": ["Hey!", "Hello!", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Take care", "See you soon", "Catch you later"],
+      "responses": ["Goodbye! Take care!", "See you soon!", "Catch you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks a lot",
+        "Appreciate it",
+        "Thank you so much",
+        "Many thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad to help!",
+        "Always here for you!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What can you do?",
+        "What is your purpose about?",
+        "Who are you exactly?"
+      ],
+      "responses": [
+        "I'm your virtual assistant, here to help!",
+        "I'm a smart bot designed to assist you with various tasks.",
+        "I'm a chatbot"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "Do you have a name?",
+        "What's your name?",
+        "How should I call you?"
+      ],
+      "responses": [
+        "You can call me Alex.",
+        "I'm Alex, your friendly assistant!",
+        "Feel free to call me Alex."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me out?",
+        "I need assistance",
+        "Can I get some help?",
+        "What can you assist with?",
+        "Help me with this, please"
+      ],
+      "responses": [
+        "I'm here to help! Let me know what you need.",
+        "Of course! How can I assist you?",
+        "Yes, tell me how I can support you."
+      ]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": [
+        "How do I sign up?",
+        "Help me create an account",
+        "I want to register",
+        "Can you guide me on creating an account?",
+        "Need help creating an account"
+      ],
+      "responses": [
+        "Just visit our site and follow the simple steps to register.",
+        "You can sign up easily by following the instructions on our website."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I need to file a complaint",
+        "Where can I submit a complaint?",
+        "I want to complain about an issue",
+        "There's a problem I want to report"
+      ],
+      "responses": [
+        "Please provide details about your issue, and we'll address it.",
+        "Let us know your complaint so we can resolve it for you.",
+        "We're sorry for the trouble. Please share your complaint, and we'll assist you."
+      ]
+    }
+  ]
+}
